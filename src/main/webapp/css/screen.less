@@ -102,6 +102,7 @@ img {
 
 	h1 {
 		font-size: 3em;
+		max-width: 80%;
 	}
 	h3 {
 		margin-top: 1em;
@@ -246,7 +247,15 @@ img {
 
 	.js-menu-open .wrapper {
 		-webkit-transform:translate(80%, 0);
-		-webkit-transform:translate3d(80%, 0, 0);	
+		-moz-transform:translate(80%, 0);
+		-ms-transform:translate(80%, 0);
+		-o-transform:translate(80%, 0);
+		transform:translate(80%, 0);
+		-webkit-transform:translate3d(80%, 0, 0);
+		-moz-transform:translate3d(80%, 0, 0);
+		-ms-transform:translate3d(80%, 0, 0);
+		-o-transform:translate3d(80%, 0, 0);
+		transform:translate3d(80%, 0, 0);
 	}
 	.page-head {
 		display: block;
@@ -294,6 +303,23 @@ img {
 			-ms-background-origin:content-box;
 			-o-background-origin:content-box;
 			background-origin:content-box;
+		}
+	}
+
+	/*Fonts*/
+	.intro {
+		h1 {
+			font-size:30px;
+			font-size:1.875rem;
+			line-height:1.6;
+			font-weight:700;
+			line-height:1em;
+			letter-spacing:.05em;
+			-webkit-transition:opacity .6s linear;
+			-moz-transition:opacity .6s linear;
+			-ms-transition:opacity .6s linear;
+			-o-transition:opacity .6s linear;
+			transition:opacity .6s linear;
 		}
 	}
 }

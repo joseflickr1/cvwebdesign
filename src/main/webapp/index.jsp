@@ -37,12 +37,9 @@
             <div class="line">
                 <div class="size1of1 intro">
                     <h1> Inspirasjon </h1>
-                    <h3> Ta vare på og pleie, historier å dele</h3>
+                    <<h3> Ta vare på og pleie, historier å dele</h3>
                     <div class="sticker">&nbsp;</div>
                 </div>
-                
-
-
                 <div class="line page-cv">
                     <div class="unit size1of2">
                         <ul class="cv-bullets">
@@ -81,7 +78,7 @@
             </div>
         </div>
     </div>
-    <div class="line" style="display:none">
+    <!-- <div class="line" style="display:none">
         <div class="size1of1 ">
             <h3>Appen</h3>
             <ol>
@@ -118,7 +115,7 @@
                 </li>
             </ol>
         </div>
-    </div>
+    </div> -->
 </div>
 </div>
 
